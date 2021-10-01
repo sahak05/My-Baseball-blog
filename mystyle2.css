@@ -1,0 +1,112 @@
+/*Al Wahid BIO TCHANE
+  Mariam TRAORE
+  Abdoul SADIKOU
+  */
+ h1{
+  background-color:#000080;
+  border: 25px solid #000080;
+  font-size: 200%;
+  text-align: center;
+  color: white;
+  margin-top: -15px; 
+}
+
+h2{
+	font-size:120%;
+	text-align:center;
+	
+}
+ul {
+  list-style-type: none;
+  margin-top:-37px;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #CC0000;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 28px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+html,body{
+  background-color: #FFF8DC;
+  font-size: 28px;
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+#im1{
+	width: 400px;
+	height: 400px;
+	text-align: center; 
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+
+table{
+  width: 100%;
+  font-size: 20px;
+   
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 8px;
+  text-align: left;
+}
+
+th{
+  height: 90px;
+  background-color: #00AA00;
+  color: white;
+}
+tr:hover{
+  background-color: #00AA00;
+  height: 20px;
+  color: white;
+}
+/*tr:hover td:empty {background-color: #ff0; pointer-events: visible;}
+tr:hover{ transform: scale(1.1); font-weight: 700;background-color: #ff0; box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);}*/
+
+.listeImage img{
+  float: left;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 200px;
+  height: 150px;
+}
+
+#select1{
+	width: 100px;
+	height: 30px;
+}
+
+#premiere_img{
+	padding-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+}

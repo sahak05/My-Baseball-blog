@@ -1,0 +1,112 @@
+<!--Al Wahid BIO TCHANE
+  Mariam TRAORE
+  Abdoul SADIKOU
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<title>Classement</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style-de-classement-html.css">
+		<link rel="stylesheet" type="text/css" href="interface.css">
+		
+		<script type = "text/javascript" src="jquery-3.4.1.js"></script>
+		<script type = "text/javascript" src="java1.js"></script>
+	</head>
+
+	<body>
+		<header>
+		 <h1><b>Les Expos de Montréal de 1964 à 2004</b></h1>
+		</header> 
+		
+		<ul>
+			<li><a  href="acceuil.html">Acceuil</a></li>
+			<li><a href="composition.html">Composition des équipes</a></li>
+			<li><a class="active" href="classement.html">  Classement des équipes</a></li>
+			<li><a href="evolution.html">   Evolution de l'équipe</a></li>
+			<li><a href="auteurs.html">  Auteurs</a></li>
+		</ul>
+		<br>
+		<br>
+		
+		<img id="im2" src="Ligue_majeure_de_Baseball.png" 
+			alt="Ligue Majeure de Baseball">
+		
+		<div class="interface">
+		
+		  <fieldset id="id01">
+		
+			<b>Année attendu:</b> &nbsp; &nbsp; <input type="number" id="annee" 
+			placeholder="Entrez l'année dans le format à 04 chiffres" min="1969" max="2004">
+			<br><br>
+			
+			<fieldset>
+				<legend><b>Ligue</b></legend>
+				
+				<input type="radio" name="ligue" value="Ligue nationale"aria-checked="true" id="LigueN"> 
+				<label for="LigueN"> Ligue Nationale </label><br>
+				
+				<input type="radio" name ="ligue" value="Les deux ligues" id="LigueA">
+				<label for="LigueA">Les deux ligues </label>
+			</fieldset>
+			<br><br>
+			
+			<fieldset>
+				<legend><b>Champions</b></legend>
+				
+				<input type="checkbox" value="Ligue Nationale" id="LigueNa"> 
+				<label for="LigueNa"> Ligue Nationale </label><br>
+				
+				<input type="checkbox" value="Ligue Américaine" id="LigueAm">
+				<label for="LigueAm"> Ligue Américaine </label><br>
+				
+				<input type="checkbox" value="Série mondiale" id="Srmondiale">
+				<label for="Srmondiale"> Série mondiale </label>
+			</fieldset>
+			<br><br>
+			<input type="button" value="Remplir" id="remplir">
+		  </fieldset>
+		  
+		</div>
+		<br><br><br>
+		
+		<div class="tableaux"> <br>
+               <p class="titre" id="divNLE">
+                <table class="tab" id="NL-E"></table>
+                <br><br><br>
+
+                <p class="titre" id="divNLW">
+                <table class="tab" id="NL-W"></table>
+                <br><br><br>
+
+                <p class="titre" id="divNLC" style="float: right;"></p>
+                <table class="tab" id="NL-C"></table>
+
+        </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="tableaux"> <br>
+
+               <p class="titre" id="divALE"></p>
+                <table class="tab" id="AL-E"></table> <br><br><br>
+
+                <p class="titre" id="divALW"></p>
+                <table class="tab" id="AL-W"></table><br><br><br>
+
+                <p class="titre" id="divALC"></p>
+                <table class="tab" id="AL-C"></table>
+
+    </div> 
+    
+		
+		
+
+	</body>
+</html>

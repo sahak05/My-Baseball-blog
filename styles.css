@@ -1,0 +1,100 @@
+/*
+  Al Wahid BIO TCHANE
+  Mariam TRAORE
+  Abdoul SADIKOU
+  */
+  
+.aut{
+	text-align: center;
+	color: DarkGoldenrod;
+}
+
+#tab1{
+	width: 50%;
+	border: 3px solid black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+	
+#tab3{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	text-align: center;
+	font-size: 30px;
+}
+#expo1{
+	color: red;
+	font-weight: bold;
+}
+#expo2{
+	color : blue;
+	font-weight: bold;
+}
+
+img {
+	margin-left: 500px;
+}
+
+.title {
+	text-align: center;
+	color: MidnightBlue;
+	font-size: 45px;
+	font-weight: bold;
+}
+.title1{
+	text-align: center;
+	color: blue;
+	font-size: 45px;
+	font-weight: bold;
+}
+.a{
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#stade{
+	margin-left: 370px;
+	height: 400px;
+}
+.b{
+	margin-top: 10px;
+	font-weight: bold;
+}
+#tab2{
+	width: 30%;
+	text-align: center;
+	font-size: 45px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tab2{
+	border: 10px solid black;
+	border-top-color: black;
+	
+}
+
+.tab4{
+	font-weight: bold;
+}
+
+th,td{
+	border:5px solid black;
+}
+
+#foot table{
+	width: 100%;
+	background: linear-gradient(to bottom, white, Teal);
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	
+}

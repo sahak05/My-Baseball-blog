@@ -1,0 +1,54 @@
+/*
+  Al Wahid BIO-TCHANE
+  Mariam TRAORE
+  Abdoul SADIKOU
+  */
+
+input[type="number"]{
+	width: 400px;
+	height: 40px;
+}
+
+
+input[type="reset"]{
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	border-color: #00FF00;
+}
+
+.interface{
+	font-size: 18px;
+}
+
+#id01{
+	margin: 20px;
+	padding: 35px 45px 35px;
+	border: 1px solid black;
+	width: 25%;
+	float: left;
+}
+
+.id02{
+	margin: 20px;
+	padding: 35px 45px 35px;
+	width: 39%;
+	float: left;
+	border: 4px solid black;
+	background-color:#AABBDD;
+}
+.id03{
+	background-color:#FFF8DC;
+}
+
+#im2{
+  margin-left: 500px;
+  width: 300px;
+  height: 200px;
+}
+#premiere_img{
+	-left: ;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+}
